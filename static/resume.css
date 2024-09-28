@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+h6 {
+  font-size: .9rem;
+}
+
+:root {
+  --background: #fff;
+  --accent: #2b2b2b;
+}
+
+button {
+  margin: 1rem 0;
+  padding: 1rem 2.3rem;
+  border-radius: 55px;
+  border: solid var(--accent);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.outline {
+  color: var(--accent);
+  border: solid var(--accent);
+  background-color: var(--background);
+}
+
+.outline:hover {
+  background-color: var(--accent);
+  color: var(--background);
+}
+
+.solid {
+  background-color: var(--accent);
+  color: var(--background);
+}
+
+.solid:hover {
+  background-color: var(--background);
+  color: var(--accent);
+}
+
+#hero {
+  height: 50vh;
+  width: 100%;
+  background: rgb(255, 88, 88);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 88, 88, 1) 0%,
+    rgba(240, 152, 25, 1) 100%
+  );
+  display: grid;
+}
+
+.container {
+  margin-top: 3rem;
+  background-color: var(--background);
+  border-radius: 1%;
+  width: 90%;
+  height: 50vh;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.grid-container {
+  justify-self: left;
+}
+
+.profile {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  justify-self: center;
+}
+
+.float-right {
+  float: right;
+}
+
+#resume-section {
+  height: 100%;
+  width: 100%;
+  background: rgb(255, 88, 88);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 88, 88, 1) 0%,
+    rgba(240, 152, 25, 1) 100%
+  );
+  display: grid;
+}
+
+.resume {
+  margin-bottom: 3rem;
+  display: inline-grid;
+  background-color: var(--background);
+  border-radius: 1%;
+  width: 90%;
+  height: 100%;
+  min-height: 50vh; /* Set a minimum height */
+  text-align: left;
+  justify-self: center;
+}
+
+.UCI {
+  margin-bottom: 1rem;
+}
+
+.educational-experience {
+  padding: 5rem 5rem .5rem 5rem;
+}
+
+.projects, .work-experience, .education, .additional {
+  padding: .5rem 5rem;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/resume.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="hero">
+      <div class="container">
+        <img class="profile" src="../static/images/profile.png" alt="" />
+        <div class="grid-container">
+          <h1>Jeremiah Lillion</h1>
+          <h2>Computer Science student at UCI</h2>
+          <p>U.S. Citizen | jeremiahlillion@gmail.com | 760-377-7194</p>
+          <div class="button-container">
+            <a href="../static/Jeremiah_Lillion_Resume.PDF" download
+              ><button class="solid">Download CV</button></a
+            >
+            <a href="{{ url_for('home')}} "
+              ><button class="outline">Portfolio Website</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="resume-section">
+      <div class="resume">
+        <div class="educational-experience">
+          <h3>EDUCATIONAL EXPERIENCES</h3>
+          <hr />
+          <h6 class="float-right">Virtual, CA</h6>
+          <h4>STUDENT (SPRING 2024 WINNER)</h4>
+          <h6 class="float-right">Jan 2024 – Apr 2024</h6>
+          <h6>
+            <em
+              >NASA L'SPACE - Proposal Writing & Evaluation Experience
+              Academy</em
+            >
+          </h6>
+
+          <ul>
+            <li>
+              Coordinated with a team of students to write a proposal about
+              space planning logistics and obtain $10,000 in seed funding (NDA
+              signed)
+            </li>
+            <li>Acted as the chair on a proposal writing committee</li>
+          </ul>
+
+          <h6 class="float-right">
+            Virtual / Armstrong Flight Research Center, CA
+          </h6>
+          <h4>STUDENT</h4>
+          <h6 class="float-right">Jan 2023 – Jul 2024</h6>
+          <h6><em>NASA Community College Aerospace Scholars (NCAS)</em></h6>
+          <ul>
+            <li>
+              Worked with a team of students to develop and propose solutions to
+              problems, such as battery and range, revolving around emergency
+              EVTOL vehicles within NASA’s ARMD and UAM.
+            </li>
+          </ul>
+        </div>
+
+        <div class="projects">
+          <h3>PROJECTS</h3>
+          <hr />
+          <h6>Weather Application – Python</h6>
+          <ul>
+            <li>
+              Integrated OpenWeatherMap API to retrieve real-time weather data
+              for any location.
+            </li>
+            <li>
+              Designed a user-friendly GUI with Tkinter & utilized JSON data
+              parsing to display information.
+            </li>
+          </ul>
+        </div>
+
+        <div class="work-experience">
+          <h3>WORK EXPERIENCE</h3>
+          <hr />
+          <h6 class="float-right">Ridgecrest, CA</h6>
+          <h4>CLAIMS MANAGER – ASSITANT DIRECTOR’S AID</h4>
+          <h6 class="float-right">Mar 2023 – Jul 2023</h6>
+          <h6>Veterans Disability Help, LLC</h6>
+          <ul>
+            <li>
+              Oversaw daily policy claims issues and communicated with 35+
+              client’s a day about the process.
+            </li>
+            <li>
+              Processed hundreds of claims daily leading to an increase in
+              client’s monthly disability income, sometimes by a factor of 80%.
+            </li>
+            <li>
+              Tested and critiqued various strategies for submitting evidence
+              for Bilateral Factor Claims with the Assistant Director.
+            </li>
+          </ul>
+
+          <h6 class="float-right">Ridgecrest, CA</h6>
+          <h4>TUTOR – TEACHER’S ASSISTANT</h4>
+          <h6 class="float-right">Jan 2022 –Dec 2022 / Aug 2023 – May 2024</h6>
+          <h6>Cerro Coso Community College</h6>
+          <ul>
+            <li>
+              Collaborated with students to complete homework assignments,
+              identify lagging skills, and correct weaknesses. Created Visual
+              Aid Drawings and Work Instructions for Assemblies.
+            </li>
+            <li>
+              Provided homework assistance using specific curriculum and
+              materials.
+            </li>
+          </ul>
+        </div>
+
+        <div class="education">
+          <h3>EDUCATION</h3>
+          <hr />
+          <div class="UCI">
+            <h6 class="float-right">Irvine, CA</h6>
+            <h4>University Of California, Irvine</h4>
+            <h6 class="float-right">December 2026</h6>
+            <p>Computer Science (B.S.)</p>
+            <h5>Additional</h5>
+            <ul>
+              <li>
+                Awarded: Regent’s Scholarship (UCI), Book Scholarship (UCI)
+              </li>
+              <li>Campuswide Honors Collegium (CHC)</li>
+            </ul>
+          </div>
+
+          <div class="CCCC">
+            <h6 class="float-right">Ridgecrest, CA</h6>
+            <h4>Cerro Coso Community College</h4>
+            <h6 class="float-right">December 2023</h6>
+            <p>Mathematics (A.S.-T)</p>
+            <h6 class="float-right">December 2022</h6>
+            <p>
+              A.A. Degrees (3) -- Liberal Arts: (Math and Science, Social and
+              Behavioral Science, Arts and Humanities)
+            </p>
+            <h6>Cumulative GPA: 4.0</h6>
+
+            <h5>Additional</h5>
+            <ul>
+              <li>
+                Awarded: Presidents Scholarship, Ann Ruff Memorial Scholarship,
+                President’s Outstanding Academic Achievement Award, Regent’s
+                Scholarship (UCI), Book Scholarship (UCI)
+              </li>
+              <li>
+                Phi Theta Kappa Member, Dean’s List (6 times), Honors Student,
+                Honors Program graduate (HTCC), Student Speaker (2 of 172
+                students)
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="additional">
+          <h3>Additional</h3>
+          <hr />
+          <p>
+            <strong>Technical Skills:</strong> Basic Java (Classes: Java 1 and
+            2), HTML/CSS, Python, Adobe XD
+          </p>
+          <p>
+            <strong>Awards:</strong> Veteran’s Disability Help LLC: Core Values
+            Award, Opportunities for Learning: Presidential Hall’s Award
+          </p>
+          <p>
+            <strong>Volunteer Work:</strong> Bethel Baptist Church (8 years)
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
